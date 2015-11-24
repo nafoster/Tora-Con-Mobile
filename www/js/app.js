@@ -41,7 +41,7 @@ angular.module('ionicApp', ['ionic'])
     .state('tabs.about', {
       url: "/about",
       views: {
-        'blank-tab': {
+        'schedule-tab': {
           templateUrl: "templates/about.html"
         }
       }
@@ -50,7 +50,7 @@ angular.module('ionicApp', ['ionic'])
     .state('tabs.rules', {
       url: "/rules",
       views: {
-        'blank-tab': {
+        'schedule-tab': {
           templateUrl: "templates/rules.html"
         }
       }
@@ -58,7 +58,7 @@ angular.module('ionicApp', ['ionic'])
     .state('tabs.faq', {
       url: "/faq",
       views: {
-        'blank-tab': {
+        'schedule-tab': {
           templateUrl: "templates/faq.html"
         }
       }
@@ -66,7 +66,7 @@ angular.module('ionicApp', ['ionic'])
   .state('tabs.guests', {
       url: "/guests",
       views: {
-        'blank-tab': {
+        'schedule-tab': {
           templateUrl: "templates/guests.html"
         }
       }
@@ -74,7 +74,7 @@ angular.module('ionicApp', ['ionic'])
   .state('tabs.events', {
       url: "/events",
       views: {
-        'blank-tab': {
+        'schedule-tab': {
           templateUrl: "templates/events.html"
         }
       }
@@ -82,7 +82,7 @@ angular.module('ionicApp', ['ionic'])
   .state('tabs.panels', {
       url: "/panels",
       views: {
-        'blank-tab': {
+        'schedule-tab': {
           templateUrl: "templates/panels.html"
         }
       }
