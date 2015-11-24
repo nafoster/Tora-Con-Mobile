@@ -5,5 +5,9 @@ angular.module('ionicApp.controllers', [])
     $ionicSideMenuDelegate.toggleLeft();
   };
 })
-.controller('ScheduleTabCtrl', function($scope) {
-})
+.controller('ScheduleTabCtrl', ['$scope', '$http', function($scope,$http) {
+      $http.get("schedule.json")
+      .success(function (response) 
+      {
+       $scope.names = response;
+      });
